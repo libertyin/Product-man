@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+
+    background-color: #d9d8d8;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    color: #303030;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+
+.header {
+
+    padding: 60px;
+
+}
+
+.header-left {
+
+    float: left;
+
+}
+
+.header-right {
+
+    float: right;
+
+}
+
+.header-logo {
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1px;
+
+}
+
+.ul-menu li {
+
+    display: inline-block;
+    padding-right: 25px;
+    list-style-type: none;
+    font-size: 18px;
+
+}
+
+.ul-menu li:hover {
+
+    text-decoration: underline;
+}
+
+.menu {
+
+    vertical-align: middle;
+}
+
+.clear {
+
+    clear: both;
+}
+
+/* End Header */
+
+
+/* Aside */
+
+.scrollbar {
+
+    font-size: 0;
+    margin: 40px 0 100px;
+
+}
+
+.aside-text {
+
+    vertical-align: top;
+    display: inline-block;
+    width: 51%;
+    text-align: right;
+
+}
+
+.aside-text h2 {
+
+    font-family: 'Releway', 'Arial', suns-serif;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 130px;
+ 
+}
+
+.aside-text p {
+
+    padding: 30px 0 30px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+
+}
+
+.aside-img {
+
+    padding-left: 105px;
+    vertical-align: top;
+    display: inline-block;
+    max-width: 100%;
+
+}
+
+.aside-more {
+
+    font-size: 24px;
+    color: #e10011;
+    font-weight: 900;
+}
+
+.aside-more:hover {
+
+    color: #b6b2b2;
+}
+
+.radiobutton{
+
+    padding-top: 70px;
+    text-align: center;
+    color: #e70000;
+    
+}
+
+.radiobutton input {
+
+    display: inline-block;
+    margin-right: 5px; 
+
+}
+
+/* End Aside */
+
+/* Products */
+
+.main {
+
+    font-family: 'Releway', 'Arial', suns-serif;
+    border-radius: 5px;
+}
+
+.products {
+
+    background-color: #fff;
+}
+
+.product-title,
+.subscribe-title 
+{
+
+    margin: auto;
+    text-align: center;
+    width: 550px;
+    padding-top: 60px;
+
+}
+
+.product-title h1 {
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1px;
+}
+
+
+.product-title p {
+
+    margin-top: 5px;
+    font-weight: 400;
+
+}
+
+.product-img {
+
+    padding: 72px;
+    font-size: 0;
+
+}
+
+.product-img a {
+
+    display: inline-block;
+    padding: 7px;
+    vertical-align: top;
+    cursor: pointer;
+    
+}
+
+.product-img a:hover {
+    opacity: 0.5;
+}
+
+.product-img a:first-child {
+
+    width: 66,66%;
+
+}
+
+/* End Products */
+
+/* Subscribe */
+
+.subscribe-title h2 {
+
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+}
+
+.subscribe-title p {
+
+    padding: 20px 0 42px;
+}
+
+.subscribe-form {
+    
+    width: 700px;
+    margin: auto;
+    margin-bottom: 115px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 50px;
+
+}
+
+
+.subscribe-form .input-field{
+
+    float: left;
+    margin: 0;
+    padding: 3px 20px 0px 40px;
+    height: 65px;
+    width: 64%;
+    border: none;
+    -webkit-appearance: none;
+    outline: none;
+    font-size: 25px;
+    color: #303030;
+
+}
+
+.input-field::-webkit-input-placeholder {
+    
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.subscribe-form button{
+
+
+    float: left;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    width: 36%;
+    height: 65px;
+    background-color: #e10011;
+    color: #fff;
+    font-weight: 900px;
+    border-radius: 5px 50px 50px 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.subscribe-form button:hover {
+
+    color: #e10011;
+    background-color: #a19d9d;
+}
+
+
+/* End Subscribe */
+
+/* Social */
+
+.social {
+
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.social a {
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    margin-right: 10px;
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+.social a:hover {
+
+    opacity: 0.7;
+}
+
+
+
+/* End Social */
+
+/* Footer */
+
+.footer {
+
+    margin: 60px 0 30px;
+}
+
+.footer .copyright {
+
+    text-align: center;
+    font-size: 18px;
+    color: #979797;
+}
+
+.copyright span {
+
+    color: #000;
+}
+
+/* End Footer */

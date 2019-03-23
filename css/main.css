@@ -48,7 +48,7 @@ a {
 
     font-weight: 900;
     font-size: 48px;
-    line-height: 1px;
+    line-height: 10px;
 
 }
 
@@ -66,9 +66,10 @@ a {
     text-decoration: underline;
 }
 
-.menu {
+.ul-menu .menu {
 
     vertical-align: middle;
+    padding-right: 0;
 }
 
 .clear {
@@ -91,6 +92,7 @@ a {
 .aside-text {
 
     vertical-align: top;
+    margin-right: 60px;
     display: inline-block;
     width: 51%;
     text-align: right;
@@ -118,10 +120,10 @@ a {
 
 .aside-img {
 
-    padding-left: 105px;
+    margin-right: 105px;
     vertical-align: top;
     display: inline-block;
-    max-width: 100%;
+    max-width: 43%;
 
 }
 
